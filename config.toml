@@ -12,7 +12,7 @@ paginate     = 10
 
   contentTypeName = "posts"
   # Subtitle for home
-  homeSubtitle = "The site for the channel"
+  homeSubtitle = "The site for the Schemes and Notions YouTube Channel"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -54,6 +54,10 @@ paginate     = 10
     identifier = "posts"
     name       = "Posts"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "/tags"
   [[menu.main]]
     identifier = "youtube"
     name       = "YouTube"
