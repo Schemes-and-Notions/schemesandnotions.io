@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -u `id -u` -it -v $(pwd):/src klakegg/hugo new $1

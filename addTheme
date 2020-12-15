@@ -1,0 +1,4 @@
+#!/bin/sh
+
+git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+git submodule add https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend
