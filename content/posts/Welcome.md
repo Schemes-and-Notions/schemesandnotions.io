@@ -8,7 +8,7 @@ tags:
   - info
 ---
 
-Welcome to the Schemes and Notions website!  I'll put content here that either doesn't make sense to be it's own video, or in suppliment to videos posted on our [YouTube Channel](https://yt.schemesandnotions.io).
+Welcome to the Schemes and Notions website!  I'll put content here that either doesn't make sense to be it's own video, or in suppliment to videos posted on our [YouTube Channel](https://www.youtube.com/channel/UCI_tKM35Gndgd18ifK7BghA).
 
 Have something you want to see on the site?  Hit me up at `info at schemesandnotions dot io`.
 
