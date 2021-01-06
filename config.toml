@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Schemes and Notions"
-theme = "hello-friend-ng"
+theme = "hello-friend"
 paginate     = 10
 
 [params]
