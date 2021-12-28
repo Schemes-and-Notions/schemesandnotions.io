@@ -66,4 +66,8 @@ paginate     = 10
     identifier = "youtube"
     name       = "YouTube"
     url        = "https://www.youtube.com/channel/UCI_tKM35Gndgd18ifK7BghA"
+  [[menu.main]]
+    identifier = "rss"
+    name       = "RSS Feed"
+    url        = "/posts/index.xml"
 
