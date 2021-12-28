@@ -11,6 +11,8 @@ tags:
   - Docker
   - EdgeRouter X
 ---
+## TL;DR
+Run `add system image` but point at a `http://` url, either via Ubiquiti's download page or an internally hosted web server.
 
 ## Problem
 - You have your shiny new Ubiquiti EdgeRouter X, but you need to update the firmware.  
