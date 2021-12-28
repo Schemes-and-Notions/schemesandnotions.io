@@ -26,7 +26,7 @@ paginate     = 10
   images = [""]
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
 [taxonomies]
     category = "blog"
@@ -51,6 +51,10 @@ paginate     = 10
 
   # And you can even create generic menu
   [[menu.main]]
+    identifier = "About"
+    name       = "About Me"
+    url        = "https://zeroent.net"
+  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "/posts"
@@ -62,3 +66,4 @@ paginate     = 10
     identifier = "youtube"
     name       = "YouTube"
     url        = "https://www.youtube.com/channel/UCI_tKM35Gndgd18ifK7BghA"
+
