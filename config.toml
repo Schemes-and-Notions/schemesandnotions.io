@@ -71,3 +71,25 @@ paginate     = 10
     name       = "RSS Feed"
     url        = "/posts/index.xml"
 
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
