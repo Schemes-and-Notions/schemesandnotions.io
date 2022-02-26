@@ -128,7 +128,6 @@ To fix this, both the DroneCI Agent and the DroneCI Runner need to trust the CA.
 
 
 ```bash
-# this 
 docker run --detach \
   --volume=/var/run/docker.sock:/var/run/docker.sock \
   --volume=/opt/dockervol/step-ca/pub/ca_chain.crt:/etc/ssl/certs/ca-certificates.crt \ # for the DroneCI Agent
