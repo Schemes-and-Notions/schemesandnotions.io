@@ -191,3 +191,6 @@ It's not an immediately obvious transition, but well worth the time.  If you hav
 [Gitea backup/"restore"](https://docs.gitea.io/en-us/backup-and-restore/)  
 [dump and recreate psql database](https://www.netguru.com/blog/how-to-dump-and-restore-postgresql-database)  
 [reddit users trying to migrate](https://www.reddit.com/r/selfhosted/comments/b0zaa8/gitea_migrate_from_manual_installation_to_docker/)  
+
+#### Legal
+All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. 
