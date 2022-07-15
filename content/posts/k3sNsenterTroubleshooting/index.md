@@ -3,7 +3,7 @@ title: "Troubleshooting k3s/containerd pods with nsenter"
 date: 2022-07-11T09:00:00Z
 draft: false
 toc: false
-description: Going through the tumultuous job of migrating between containerization platforms.
+description: Troubleshooting your k3s pods when the image doesn't have the right tools.
 cover: cover.jpg
 useRelativeCover: True
 tags:
