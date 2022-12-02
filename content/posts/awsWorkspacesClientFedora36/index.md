@@ -32,7 +32,7 @@ I need to use AWS Workspaces for work.  I run Fedora at home.  AWS only releases
 - You have an AWS workspace you want to connect to.
 
 ## Disclaimer
-This is basically [a roll up of some collaboration on Reddit](https://www.reddit.com/r/aws/comments/e28fdh/the_workspaces_client_is_now_available_for_linux/), as I'm sure it's found other places.  All credit goes to those in the reddit thread.  
+This is basically [a roll up of some collaboration on Reddit](https://www.reddit.com/r/aws/comments/e28fdh/the_workspaces_client_is_now_available_for_linux/).  With most of the credit going to [pgn674](https://www.reddit.com/user/pgn674/) and [Northern-Gannet-00](https://www.reddit.com/user/Northern-Gannet-00/).  All credit goes to those in the reddit thread.  
 
 Additionally, This works for me, today, at the time of writing (see article date/time stamp).  It may not work for you in the future, but hopefully offers some breadcrumbs.
 
