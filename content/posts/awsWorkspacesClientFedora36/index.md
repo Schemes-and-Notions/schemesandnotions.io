@@ -15,6 +15,8 @@ tags:
   - rpm
 ---
 
+**Checkout [my new instructions that should work on any distro/version of linux that's supported by Distrobox!](posts/awsworkspacesclientfedora36/)**
+
 ## **READ ME FIRST**
 There is a [flatpak on flathub](https://flathub.org/apps/details/com.amazon.Workspaces).  At the time of writing this post, the version on flathub (4.3.0.1766) was behind what people were getting for Ubuntu (4.4.0.1808-2).  Additionally, it looks like that [flatpak](https://flathub.org/apps/details/com.amazon.Workspaces) is **not** maintained by AWS.  From the FlatHub page:
 
