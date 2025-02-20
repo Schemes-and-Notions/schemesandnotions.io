@@ -240,7 +240,7 @@ homeDirectory: /home/mike
 sn: Mike
 cn: mike
 uid: 169160db3b2498c4b4a9b8f33cec5e11bb0fed8b98fe9097cd33eeb15dcfdb30
-mail: mike@zeroent.net
+mail: mike@zeroent.lan
 gidNumber: 2007
 
 # search result
@@ -332,7 +332,9 @@ uidNumber: 999999
 Note that any other values you set here will be returned as an LDAP attribute as well!
 
 ## Future work
-Right now, the Authentik LDAP outpost by-default uses a self-signed (internal to authentik) cert when you first standup the LDAP integration.  While I could manage this certificate manually, I'd love for it to go through the cluster Ingress and allow the ingress to manage the certificates (via ACME or similar).  So far, when turning on TLS termination on the ingress, I was no longer able to query, so more testing is required.
+Right now, the Authentik LDAP outpost by-default uses a self-signed (internal to authentik) cert when you first standup the LDAP integration.  While I could manage this certificate manually, I'd love for it to go through the cluster Ingress and allow the ingress to manage the certificates (via ACME or similar).  
+
+So far, when turning on TLS termination on the ingress, I was no longer able to query, so more testing is required.
 
 ## Links, resources
 
