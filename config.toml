@@ -1,95 +1,50 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Schemes and Notions"
-theme = "hello-friend"
-paginate     = 10
+theme = "hugo-theme-m10c"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  avatar = "images/logo-Final.png"
+  author = "Mike D"
+  description  = "Ramblings and musings of a systems enginner and builder."
+  menu_item_separator = " | "
+ [[params.social]]
+    icon = "user"
+    name = "About Me"
+    url = "https://www.zeroent.net"
+  [[params.social]]
+    icon = "brand-github"
+    name = "Github"
+    url = "https://github.com/mddeff"
+ [[params.social]]
+    icon = "brand-youtube"
+    name = "Youtube"
+    url = "https://www.youtube.com/channel/UCI_tKM35Gndgd18ifK7BghA"
+ [[params.social]]
+    icon = "brand-thingiverse"
+    name = "Thingiverse"
+    url = "https://www.thingiverse.com/mddeff/designs"
 
-  contentTypeName = "posts"
-  # Subtitle for home
-  homeSubtitle = "The site for the Schemes and Notions YouTube Channel"
+[params.style]
+#  darkestColor = "#353b43"
+#  darkColor = "#212121"
+#  lightColor = "#f5e3e0"
+#  lightestColor = "#eceff1"
+  primaryColor = "#4f9edb"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Enable sharing buttons, if you linke
-  enableSharingButtons = true
-
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
-
-  # Default theme "light" or "dark"
-  defaultTheme = "light"
-
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
-
-[languages]
-  [languages.en]
-    title = "Schemes and Notions"
-    subtitle = ""
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "schemesandnotions.io"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "About"
-    name       = "About Me"
-    url        = "https://zeroent.net"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "/posts"
-  [[menu.main]]
-    identifier = "tags"
-    name       = "Tags"
-    url        = "/tags"
-  [[menu.main]]
-    identifier = "youtube"
-    name       = "YouTube"
-    url        = "https://www.youtube.com/channel/UCI_tKM35Gndgd18ifK7BghA"
-  [[menu.main]]
-    identifier = "rss"
-    name       = "RSS Feed"
-    url        = "/posts/index.xml"
-
-[privacy]
-  [privacy.disqus]
-    disable = true
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = true
-  [privacy.instagram]
-    disable = true
-    simple = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = false
-  [privacy.vimeo]
-    disable = true
-    enableDNT = false
-    simple = false
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
+[[menu.main]]
+  identifier = "About"
+  name       = "About Me"
+  url        = "https://zeroent.net"
+[[menu.main]]
+  identifier = "posts"
+  name       = "Posts"
+  url        = "/posts"
+[[menu.main]]
+  identifier = "tags"
+  name       = "Tags"
+  url        = "/tags"
+[[menu.main]]
+  identifier = "rss"
+  name       = "RSS Feed"
+  url        = "/posts/index.xml"
